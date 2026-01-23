@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pratima - HubSpot Specialist & API Integration Consultant">
+    <title>Pratima - HubSpot Specialist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 60px 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            margin: 0 auto 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            color: white;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #2d3748;
+            font-weight: 700;
+        }
+
+        .title {
+            font-size: 1.3em;
+            color: #667eea;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #718096;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        .divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            margin: 30px auto;
+            border-radius: 2px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .skill-tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 0.95em;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .maintenance-message {
+            background: #f7fafc;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .maintenance-message h2 {
+            color: #2d3748;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .maintenance-message p {
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            padding: 25px;
+            background: #f7fafc;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            color: #2d3748;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .email-list {
+            list-style: none;
+        }
+
+        .email-item {
+            margin: 10px 0;
+        }
+
+        .email-label {
+            color: #718096;
+            font-size: 0.85em;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .email-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .email-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .title {
+                font-size: 1.1em;
+            }
+
+            .skills {
+                gap: 10px;
+            }
+
+            .skill-tag {
+                padding: 8px 16px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">P</div>
+        
+        <h1>Pratima</h1>
+        
+        <div class="title">HubSpot Specialist & API Integration Consultant</div>
+        
+        <div class="subtitle">Empowering businesses through automation and seamless integrations</div>
+        
+        <div class="divider"></div>
+        
+        <div class="skills">
+            <div class="skill-tag">CRM Automation</div>
+            <div class="skill-tag">Workflows</div>
+            <div class="skill-tag">Custom Integrations</div>
+        </div>
+        
+        <div class="maintenance-message">
+            <h2>Site Under Construction</h2>
+            <p>
+                We're currently working on something amazing! Our website is being updated to better serve you. 
+                Please check back soon for updates.
+            </p>
+        </div>
+        
+        <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <ul class="email-list">
+                <li class="email-item">
+                    <span class="email-label">Primary Email</span>
+                    <a href="mailto:hello@pratima.codes" class="email-link">hello@pratima.codes</a>
+                </li>
+                <li class="email-item">
+                    <span class="email-label">Secondary Email</span>
+                    <a href="mailto:pratima.it.dev@gmail.com" class="email-link">pratima.it.dev@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
